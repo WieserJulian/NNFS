@@ -5,34 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a467b48-a12d-4f35-a786-35cebe16b611" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_22.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapters/Chapter_9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Accuracy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Activation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/LoadData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NNFS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NNFS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -144,6 +116,8 @@
       <workItem from="1642249586439" duration="4210000" />
       <workItem from="1642336311050" duration="9137000" />
       <workItem from="1642510495233" duration="25998000" />
+      <workItem from="1642538637265" duration="53000" />
+      <workItem from="1642538840876" duration="1097000" />
     </task>
     <servers />
   </component>
