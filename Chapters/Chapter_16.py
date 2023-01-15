@@ -18,6 +18,7 @@ X, y = spiral_data(samples=100, classes=2)
 # per each output neuron, 1 in this case
 y = y.reshape(-1, 1)
 # Create Dense layer with 2 input features and 64 output values
+print(X)
 dense1 = Layer_Dense(2, 64, weight_regularizer_l2=5e-4,
 bias_regularizer_l2=5e-4)
 # Create ReLU activation (to be used with Dense layer):
@@ -34,18 +35,21 @@ optimizer = Optimizer_Adam(decay=5e-7)
 # Train in loop
 for epoch in range(10001):
     # Perform a forward pass of our training data through this layer
-    dense1.forward(X)
+    dense1.forward(X, training=True)
     # Perform a forward pass through activation function
     # takes the output of first dense layer here
-    activation1.forward(dense1.output)
+    activation1.forward(dense1.output,training=True)
     # Perform a forward pass through second Dense layer
     # takes outputs of activation function
     # of first layer as inputs
-    dense2.forward(activation1.output)
+    dense2.forward(activation1.output,training=True)
     # Perform a forward pass through activation function
     # takes the output of second dense layer here
-    activation2.forward(dense2.output)
+    activation2.forward(dense2.output,training=True)
     # Calculate the data loss
+    print("Data Iwant")
+    print(y)
+    print("Data ended")
     data_loss = loss_function.calculate(activation2.output, y)
     # Calculate regularization penalty
     regularization_loss = \

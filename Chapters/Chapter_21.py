@@ -42,10 +42,11 @@ def initModel():
     # Finalize the model
     model.finalize()
     # Train the model
+    print(y)
     model.train(X, y, validation_data=(X_test, y_test),
                 epochs=10, batch_size=128, print_every=100)
-    model.save_parameters('fashion_mnist.parms')
-    model.save('fashion_mnist.model')
+    # model.save_parameters('fashion_mnist.parms')
+    # model.save('fashion_mnist.model')
 
 
 def loadWithParams():
@@ -103,4 +104,5 @@ def loadModel():
 
 
 # loadWithParams()
-loadModel()
+# loadModel()
+initModel()
